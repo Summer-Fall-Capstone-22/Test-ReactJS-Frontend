@@ -9,6 +9,5 @@ services:
     volumes:
       - "./:/app"
       - "/app/node_modules"
-      - "/app/.next"
-    # command: 
-    #  sh -c "npm run build && chown -R $USER:$USER /app/.next/ && npm run start"
+    command: 
+      sh -c "npm run dev"

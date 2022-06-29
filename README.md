@@ -1,35 +1,45 @@
-### Getting started
+# CS469/470 documentation repo
+## Getting started (2 options):
 
-Run the following command on your local environment:
+1. Run the following command on your local environment (w/o Docker):
 
 ```
-git clone --depth=1 https://github.com/ixartz/Next-js-Blog-Boilerplate.git my-project-name
-cd my-project-name
-npm install
+$ git clone https://github.com/ActIII03/Capstone-docs
+$ cd Capstone-docs
+$ npm install
 ```
 
 Then, you can run locally in development mode with live reload:
 
 ```
-npm run dev
+$ npm run dev
 ```
 
 Open http://localhost:3000 with your favorite browser to see your project.
 
+2. Run the following command if using Docker & docker-compose:
+
+```
+$ docker-compose up
+```
+
+
+Open http://localhost:3000 with your favorite browser to see your project.
+
+## Layout & Customization
+
 ```
 .
-├── _posts            # Your blog posts
+├── _posts            # Our posts live here
 ├── public            # Static files
 │   ├── assets
 │   │   └── images
-│   │       └── posts # Images used in your blog posts
+│   │       └── posts # Images used in your posts
 └── src
     ├── pages         # Next.js pages
-    ├── styles        # Your blog CSS files
-    └── templates     # Blog templates
+    ├── styles        # CSS styles
+    └── templates     # Post templates
 ```
-
-### Customization
 
 You can easily configure Next js Boilerplate. Please change the following file:
 
@@ -39,7 +49,7 @@ You can easily configure Next js Boilerplate. Please change the following file:
 - `src/utils/Config.ts`: configuration file like blog name, url, etc.
 - `src/templates/Main.tsx`: blog theme
 
-### Deploy to production
+## Deploy to production
 
 You can see the results locally in production mode with:
 
@@ -53,7 +63,7 @@ The generated HTML and CSS files are minified (built-in feature from Next js). I
 You can create an optimized production build with:
 
 ```
-npm run build-prod
+$ npm run build-prod
 ```
 
 Now, your blog is ready to be deployed. All generated files are located at `dist` folder, which you can deploy with any hosting service.

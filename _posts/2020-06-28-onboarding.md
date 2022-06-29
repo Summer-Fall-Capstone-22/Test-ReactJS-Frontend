@@ -1,9 +1,9 @@
 ---
-title: 'My first post'
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-date: '2020-02-02'
-modified_date: '2020-02-02'
-image: /assets/images/posts/random-img.jpg
+title: 'Onboarding'
+description: Something something
+date: '2020-06-28'
+modified_date: '2020-06-28'
+image: /assets/images/posts/no_image.jpg
 author: Armant Touche
 ---
 

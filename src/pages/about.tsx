@@ -8,17 +8,21 @@ const About = () => (
   <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
     <Content>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
-        recusandae quidem. Quaerat molestiae blanditiis doloremque possimus
-        labore voluptatibus distinctio recusandae autem esse explicabo molestias
-        officia placeat, accusamus aut saepe.
+        We are Computer Science majors going through our Capstone. Here are the
+        team members:
       </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
-        recusandae quidem. Quaerat molestiae blanditiis doloremque possimus
-        labore voluptatibus distinctio recusandae autem esse explicabo molestias
-        officia placeat, accusamus aut saepe.
-      </p>
+      <div className="flex place-content-center">
+        <div className="flex-none mx-3 text-center">
+          <img
+            src="../../assets/images/armant.png"
+            alt="armant"
+            className="rounded w-52 h-52"
+          />
+          <div className="mx-auto">
+            Armant Touche <br /> Team Lead
+          </div>
+        </div>
+      </div>
     </Content>
   </Main>
 );
