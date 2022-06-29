@@ -13,7 +13,7 @@ const Index = (props: IBlogGalleryProps) => (
   <Main
     meta={
       <Meta
-        title="Made with Next.js, TypeScript, ESLint, Prettier, PostCSS, Tailwind CSS"
+        title="Boilerplate from CreativeDesignGuru for Capstone documentation"
         description={AppConfig.description}
       />
     }
@@ -23,7 +23,7 @@ const Index = (props: IBlogGalleryProps) => (
 );
 
 export const getStaticProps: GetStaticProps<IBlogGalleryProps> = async () => {
-  const posts = getAllPosts(['title', 'date', 'slug']);
+  const posts = getAllPosts(['title', 'author', 'date', 'slug']);
   const pagination: IPaginationProps = {};
 
   if (posts.length > AppConfig.pagination_size) {

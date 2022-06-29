@@ -35,9 +35,7 @@ const Main = (props: IMainProps) => (
               </Link>
             </li>
             <li className="mr-6">
-              <a href="https://github.com/ixartz/Next-js-Blog-Boilerplate">
-                GitHub
-              </a>
+              <a href="https://github.com/ActIII03/Capstone-docs">GitHub</a>
             </li>
           </Navbar>
         </div>
@@ -46,7 +44,7 @@ const Main = (props: IMainProps) => (
       <div className="text-xl py-5">{props.children}</div>
 
       <div className="border-t border-gray-300 text-center py-8 text-sm">
-        © Copyright {new Date().getFullYear()} {AppConfig.title}. Powered with{' '}
+        Powered with{' '}
         <span role="img" aria-label="Love">
           ♥
         </span>{' '}
