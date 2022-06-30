@@ -1,4 +1,4 @@
-# CS469/470 documentation repo
+# CS469/470
 ## Getting started (2 options):
 
 1. Run the following command on your local environment (w/o Docker):
