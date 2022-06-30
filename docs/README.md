@@ -1,6 +1,3 @@
 # Documentations dir
 
-This is where documentation will be stored for the duration of the project.
-
-[]: # Language: markdown
-[]: # Path: docs/README.md
+This is just a practice project for setting up workflow.

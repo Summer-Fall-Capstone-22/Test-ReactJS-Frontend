@@ -7,16 +7,9 @@ image: /assets/images/posts/no_image.jpg
 author: Armant Touche
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+This is just test frontend application. I may have an exercise component added for typescript exercises depending if time allows.
 
-Example with image:
+Simply follow the README.md file to get started.
 
-![Error](@@baseUrl@@/assets/images/posts/error.png)
 
-Example code block:
-
-```js
-function myFunction() {
-  return true;
-}
-```
+Add you name and a profile pic in the '/about' page and make PR to staging and once all are GTG by end of Tuesday, we will merge it from staging to main branch.
