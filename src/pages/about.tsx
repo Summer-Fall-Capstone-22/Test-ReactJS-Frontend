@@ -16,11 +16,19 @@ const About = () => (
           <img
             src="../../assets/images/armant.png"
             alt="armant"
-            className="rounded w-52 h-52"
+            className="circle-img w-52 h-52"
           />
           <div className="mx-auto">
             Armant Touche <br /> Team Lead
           </div>
+        </div>
+        <div className="flex-none mx-3 text-center">
+          <img
+            src="../../assets/images/marten.jpg"
+            alt="marten"
+            className="w-52 h-52 circle-img"
+          />
+          <div className="mx-auto">Marten Sova</div>
         </div>
       </div>
     </Content>
