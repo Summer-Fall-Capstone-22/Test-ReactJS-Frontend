@@ -35,9 +35,7 @@ const Main = (props: IMainProps) => (
               </Link>
             </li>
             <li className="mr-6">
-              <a href="https://github.com/Summer-Fall-Capstone-22/Test-ReactJS-Frontend">
-                GitHub
-              </a>
+              <a href="https://github.com/ActIII03/Capstone-docs">GitHub</a>
             </li>
           </Navbar>
         </div>
